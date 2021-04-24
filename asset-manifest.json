@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adopt-green-tech/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/adopt-green-tech/static/js/main.d5c4f6fc.chunk.js",
-    "main.js.map": "/adopt-green-tech/static/js/main.d5c4f6fc.chunk.js.map",
+    "main.js": "/adopt-green-tech/static/js/main.ad6d7e5c.chunk.js",
+    "main.js.map": "/adopt-green-tech/static/js/main.ad6d7e5c.chunk.js.map",
     "runtime-main.js": "/adopt-green-tech/static/js/runtime-main.39fa2f76.js",
     "runtime-main.js.map": "/adopt-green-tech/static/js/runtime-main.39fa2f76.js.map",
     "static/js/2.d8a20d92.chunk.js": "/adopt-green-tech/static/js/2.d8a20d92.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.39fa2f76.js",
     "static/js/2.d8a20d92.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.d5c4f6fc.chunk.js"
+    "static/js/main.ad6d7e5c.chunk.js"
   ]
 }
