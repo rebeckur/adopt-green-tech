@@ -1,9 +1,12 @@
 import React from 'react';
+import greenImg from '../res/green.png'
 
 export default class Home extends React.Component {
     render() {
         return(
             <div className="page">
+                <img src={greenImg} alt="Green graphic curtesy of rawpixel.com" width="100%" height="100%"/>
+
                 <h1>Adopt Green Tech</h1>
                 <p>Let's save the planet one device at a time. Explore the different actions you can take to be a sustainable technology consumer.</p>
 
