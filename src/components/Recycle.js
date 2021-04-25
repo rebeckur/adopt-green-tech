@@ -21,6 +21,11 @@ export default class Recycle extends React.Component {
                     <h3>Tech Firm Programs</h3>
                     <ul>
                         <li>
+                            Through Apple's <a href="https://www.apple.com/shop/trade-in" target="_blank" rel="noreferrer noopener">Trade In program</a>, you can give your device a second life 
+                            where it is either recycled for free or passed on to another owner. In return, you have the option to receive an Apple Gift Card or credit towards your next purchase. 
+                            Consumers are able to exchange iPhone, iPads, and Android devices through the Trade In program.
+                        </li>
+                        <li>
                             Trade in a qualifying phone through <a href="https://www.amazon.com/Trade-In/b?ie=UTF8&node=9187220011" target="_blank" rel="noreferrer noopener">Amazon</a> in 
                             exchange for gift cards. Amazon accepts phones from the following manufacturers:
                             <ul>
@@ -31,11 +36,7 @@ export default class Recycle extends React.Component {
                                 <li>Samsung</li>
                             </ul>
                         </li>
-                        <li>
-                            Through Apple's <a href="https://www.apple.com/shop/trade-in" target="_blank" rel="noreferrer noopener">Trade In program</a>, you can give your device a second life 
-                            where it is either recycled for free or passed on to another owner. In return, you have the option to receive an Apple Gift Card or credit towards your next purchase. 
-                            Consumers are able to exchange iPhone, iPads, and Android devices through the Trade In program.
-                        </li>
+                        
                     </ul>
                 </div>
                 <br />
@@ -44,9 +45,9 @@ export default class Recycle extends React.Component {
                     <h3>Tech Firm Programs</h3>
                     <ul>
                         <li>
-                            Through Apple's <a href="https://www.apple.com/shop/trade-in" target="_blank" rel="noreferrer noopener">Trade In program</a>, you can give your device a second life 
+                            Apple's <a href="https://www.apple.com/shop/trade-in" target="_blank" rel="noreferrer noopener">Trade In program</a> allows you to give your device a second life 
                             where it is either recycled for free or passed on to another owner. In return, you have the option to receive an Apple Gift Card or credit towards your next purchase. 
-                            Macs are eligible for credit, however other laptops and computers are not but will still get recycled for free.
+                            Macs are eligible to be exchanged for Apple credit, however other laptops and computers are not but will still get recycled for free.
                         </li>
                     </ul>
                 </div>
