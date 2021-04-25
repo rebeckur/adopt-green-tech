@@ -8,6 +8,8 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Recycle from './Recycle';
+import Reduce from './Reduce';
+import Reuse from './Reuse';
 
 class BootstrapNavbar extends React.Component {
 
@@ -47,6 +49,14 @@ class BootstrapNavbar extends React.Component {
 
                                 <Route path="/recycle">
                                     <Recycle />
+                                </Route>
+
+                                <Route path="/reduce">
+                                    <Reduce />
+                                </Route>
+
+                                <Route path="/reuse">
+                                    <Reuse />
                                 </Route>
                             </Switch>
                         </Router>
