@@ -17,7 +17,7 @@ class BootstrapNavbar extends React.Component {
                 <div className="row">
                     <div className="col-md-12">
                         <Router>
-                            <Navbar bg="light" variant="light" fixed="top">
+                            <Navbar bg="light" variant="light" expand="md" fixed="top">
                                 <Navbar.Brand href="/">Adopt Green Tech</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
