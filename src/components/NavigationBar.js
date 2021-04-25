@@ -3,11 +3,11 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    useParams,
 } from 'react-router-dom';
-import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import Home from './Home';
 import AboutUs from './AboutUs';
+import Recycle from './Recycle';
 
 class BootstrapNavbar extends React.Component {
 
@@ -23,17 +23,19 @@ class BootstrapNavbar extends React.Component {
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
                                         <Nav.Link href="/">Home</Nav.Link>
+                                        <Nav.Link href="/reduce">Reduce</Nav.Link>
+                                        <Nav.Link href="/reuse">Reuse</Nav.Link>
                                         <NavDropdown title="Recycle">
-                                            <NavDropdown.Item href="">Batteries</NavDropdown.Item>
-                                            <NavDropdown.Item href="">Phones</NavDropdown.Item>
-                                            <NavDropdown.Item href="">Laptops and Computers</NavDropdown.Item>
-                                            <NavDropdown.Item href="">Misc.</NavDropdown.Item>
+                                            <NavDropdown.Item href="/recycle#batteries">Batteries</NavDropdown.Item>
+                                            <NavDropdown.Item href="/recycle#phones">Phones</NavDropdown.Item>
+                                            <NavDropdown.Item href="/recycle#laptops-computers">Laptops and Computers</NavDropdown.Item>
+                                            <NavDropdown.Item href="/recycle">Misc.</NavDropdown.Item>
                                         </NavDropdown>
                                         <Nav.Link href="/about-us">About Us</Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
-                            <br />
+                            <br/><br/><br/>
                             <Switch>
                                 <Route exact path="/">
                                     <Home />
@@ -41,6 +43,10 @@ class BootstrapNavbar extends React.Component {
 
                                 <Route path="/about-us">
                                     <AboutUs />
+                                </Route>
+
+                                <Route path="/recycle">
+                                    <Recycle />
                                 </Route>
                             </Switch>
                         </Router>
