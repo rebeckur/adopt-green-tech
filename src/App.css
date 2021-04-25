@@ -9,7 +9,7 @@
 }
 
 .page {
-  padding-left: 3vmin;
+  padding-left: 4vmin;
   padding-right: 3vmin;
 }
 
@@ -20,4 +20,9 @@ img.rounded-corners {
 
 img.logo {
   margin-right: 1vmin;
+}
+
+.square {
+  position: relative;
+  width: 100%;
 }
