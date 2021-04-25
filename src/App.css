@@ -8,10 +8,6 @@
   }
 }
 
-.App-link {
-  color: #9cecbb;
-}
-
 .page {
   padding-left: 3vmin;
   padding-right: 3vmin;
@@ -20,4 +16,8 @@
 img.rounded-corners {
   border-radius: 45px;
   margin-right: 2vmin;
+}
+
+img.logo {
+  margin-right: 1vmin;
 }
