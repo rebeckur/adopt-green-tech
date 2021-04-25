@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class Reuse extends React.Component {
+export default class AboutUs extends React.Component {
     render() {
         return(
             <div className="page">
-                <h1>Reuse</h1>
+                <h1>About Us</h1>
             </div>
         )
     }
